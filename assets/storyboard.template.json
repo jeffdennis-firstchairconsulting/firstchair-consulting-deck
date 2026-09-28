@@ -1,0 +1,80 @@
+{
+  "_comment": "Fill from the ledger and the frame; delete unused keys. Method: references/pyramid_method.md and references/architecture.md. Every slide carries a claim_kind (references/selection_rule.md) and the pattern chosen for it. Every support point cites a ledger entry id. Never leave TBD/TODO in a finished storyboard; pyramid_check.py and ghost_check.py flag them.",
+
+  "meta": {
+    "customer": "",
+    "program": "",
+    "docType": "",
+    "genre": "proposal | findings | status | business_case | working_session | capability_overview",
+    "section_break": false,
+    "illustrative_approved": false,
+    "tier": "single | short | full | long",
+    "audience": "",
+    "objective": "",
+    "provenance": "",
+    "title": "",
+    "locale": "en-US",
+    "status": "Draft \u2014 for discussion",
+    "version": "",
+    "classification": "",
+    "logo": "",
+    "credit": true
+  },
+
+  "scqa": {
+    "use": false,
+    "situation": "What the audience already accepts as true.",
+    "complication": "What changed, the reason this deck exists.",
+    "question": "The question the complication provokes."
+  },
+
+  "governing_thought": "One sentence. The answer. A claim with a verb, not a topic.",
+  "structure": "deductive | inductive",
+
+  "sections": [
+    { "id": "S1", "title": "", "key_line": "The section's own answer, as a sentence.", "key_lines": ["KL1", "KL2"] }
+  ],
+
+  "key_lines": [
+    {
+      "id": "KL1",
+      "assertion": "A full sentence supporting the governing thought. Never a category label.",
+      "grouping": "why | how | which",
+      "support": [
+        { "claim": "", "evidence": "", "ledger": "E12", "confidence": "stated | derived | external | assumed" }
+      ],
+      "slides": [
+        {
+          "claim_kind": "decomposition | comparison | bridge | trend | composition | sequence | convergence | position | plan | status | trade_off | maturity | parallel | reframe | illustration | governance | impact | relationship",
+          "pattern": "the exhibit chosen for that claim kind, see references/selection_rule.md",
+          "headline": "An assertion with a verb and a period.",
+          "subtitle": "The caveat, the scope, or the illustrative-not-actual note.",
+          "band": "",
+          "source": "required on data patterns: chart, waterfall, table, scorecard, heatmap, matrix, gantt, roadmap, maturity, curve, kpi_strip, stage_tracker, one_number, one_status",
+          "notes": "Speaker notes: what this slide is for, the candid version, what to confirm.",
+          "audience": "optional, for a mixed room: \"executives\" or \"network engineers\"; rendered on the eyebrow",
+          "illustrative": false,
+          "fields": {},
+          "tune": {}
+        }
+      ]
+    }
+  ],
+
+  "decision": {
+    "assertion": "What you want the audience to do, as a sentence.",
+    "items": [ { "kicker": "Decision", "title": "", "body": "" } ]
+  },
+
+  "risks": [
+    { "risk": "", "impact": "High | Medium | Low", "owner": "", "mitigation": "" }
+  ],
+
+  "backup": [
+    { "claim_kind": "", "pattern": "", "headline": "", "fields": {}, "notes": "" }
+  ],
+
+  "assumptions": [],
+  "open_questions": [],
+  "external_gaps": []
+}

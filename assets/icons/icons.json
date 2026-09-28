@@ -1,0 +1,453 @@
+{
+ "_comment": "Icon vocabulary. Lucide icons (ISC licence, see LICENSE.txt), pre-rendered at 256 px in two colourways. Pick by concept; never reuse one icon for two ideas on a slide.",
+ "icons": {
+  "shield": {
+   "group": "Security and control",
+   "concepts": "security, protection, compliance baseline"
+  },
+  "lock": {
+   "group": "Security and control",
+   "concepts": "restricted access, locked down, cannot bypass"
+  },
+  "key": {
+   "group": "Security and control",
+   "concepts": "credentials, access grant, permission"
+  },
+  "fingerprint": {
+   "group": "Security and control",
+   "concepts": "identity, authentication, unique"
+  },
+  "stamp": {
+   "group": "Security and control",
+   "concepts": "approval, sign-off, authorisation"
+  },
+  "gavel": {
+   "group": "Security and control",
+   "concepts": "policy, ruling, enforcement decision"
+  },
+  "landmark": {
+   "group": "Security and control",
+   "concepts": "regulator, institution, governing body"
+  },
+  "clipboard_check": {
+   "group": "Governance and process",
+   "concepts": "audit passed, checklist complete, validation"
+  },
+  "checklist": {
+   "group": "Governance and process",
+   "concepts": "requirements, criteria, steps to complete"
+  },
+  "workflow": {
+   "group": "Governance and process",
+   "concepts": "process flow, orchestration"
+  },
+  "pull_request": {
+   "group": "Governance and process",
+   "concepts": "proposed change, peer review"
+  },
+  "merge": {
+   "group": "Governance and process",
+   "concepts": "merge, consolidate, integrate into baseline"
+  },
+  "branch": {
+   "group": "Governance and process",
+   "concepts": "variant, fork, parallel version"
+  },
+  "split": {
+   "group": "Governance and process",
+   "concepts": "divergence, two paths, segmentation"
+  },
+  "filter": {
+   "group": "Governance and process",
+   "concepts": "screening, gating, narrowing down"
+  },
+  "ticket": {
+   "group": "Governance and process",
+   "concepts": "change ticket, request, service ticket"
+  },
+  "scale": {
+   "group": "Governance and process",
+   "concepts": "trade-off, fairness, weighing options"
+  },
+  "signpost": {
+   "group": "Governance and process",
+   "concepts": "direction, decision point, choice"
+  },
+  "milestone": {
+   "group": "Governance and process",
+   "concepts": "milestone, checkpoint on a path"
+  },
+  "team": {
+   "group": "People",
+   "concepts": "team, users, community"
+  },
+  "person": {
+   "group": "People",
+   "concepts": "an individual, owner, persona"
+  },
+  "approver": {
+   "group": "People",
+   "concepts": "approver, verified person, accountable owner"
+  },
+  "onboard": {
+   "group": "People",
+   "concepts": "onboarding, new users, adoption"
+  },
+  "handshake": {
+   "group": "People",
+   "concepts": "partnership, agreement, vendor"
+  },
+  "training": {
+   "group": "People",
+   "concepts": "training, enablement, learning"
+  },
+  "support": {
+   "group": "People",
+   "concepts": "support, service desk, help line"
+  },
+  "megaphone": {
+   "group": "People",
+   "concepts": "announcement, communication, launch message"
+  },
+  "feedback": {
+   "group": "People",
+   "concepts": "feedback, conversation, comment"
+  },
+  "briefcase": {
+   "group": "People",
+   "concepts": "business, executive, commercial"
+  },
+  "server": {
+   "group": "Technology",
+   "concepts": "infrastructure, servers, devices in a fleet"
+  },
+  "server_config": {
+   "group": "Technology",
+   "concepts": "device configuration, managed infrastructure"
+  },
+  "database": {
+   "group": "Technology",
+   "concepts": "data store, system of record"
+  },
+  "cloud": {
+   "group": "Technology",
+   "concepts": "cloud, hosted service"
+  },
+  "network": {
+   "group": "Technology",
+   "concepts": "network topology, connected systems"
+  },
+  "router": {
+   "group": "Technology",
+   "concepts": "network device, router, switch"
+  },
+  "chip": {
+   "group": "Technology",
+   "concepts": "compute, processing, hardware"
+  },
+  "terminal": {
+   "group": "Technology",
+   "concepts": "command line, manual CLI work"
+  },
+  "code": {
+   "group": "Technology",
+   "concepts": "code, template, script"
+  },
+  "plug": {
+   "group": "Technology",
+   "concepts": "integration, connector, plug-in"
+  },
+  "link": {
+   "group": "Technology",
+   "concepts": "connection, linkage, traceability"
+  },
+  "bot": {
+   "group": "Technology",
+   "concepts": "automation, agent, robot"
+  },
+  "brain": {
+   "group": "Technology",
+   "concepts": "intelligence, reasoning, AI"
+  },
+  "laptop": {
+   "group": "Technology",
+   "concepts": "end-user device, workstation"
+  },
+  "mobile": {
+   "group": "Technology",
+   "concepts": "mobile, app"
+  },
+  "storage": {
+   "group": "Technology",
+   "concepts": "storage, backup, capture"
+  },
+  "wifi": {
+   "group": "Technology",
+   "concepts": "connectivity, wireless"
+  },
+  "dashboard": {
+   "group": "Technology",
+   "concepts": "dashboard, console, single view"
+  },
+  "gauge": {
+   "group": "Measures and results",
+   "concepts": "performance, speed, capacity"
+  },
+  "bar_chart": {
+   "group": "Measures and results",
+   "concepts": "volume, comparison of amounts"
+  },
+  "line_chart": {
+   "group": "Measures and results",
+   "concepts": "trend over time"
+  },
+  "trend_up": {
+   "group": "Measures and results",
+   "concepts": "growth, improvement, increase"
+  },
+  "trend_down": {
+   "group": "Measures and results",
+   "concepts": "reduction, decline, cost down"
+  },
+  "target": {
+   "group": "Measures and results",
+   "concepts": "goal, target, focus"
+  },
+  "pulse": {
+   "group": "Measures and results",
+   "concepts": "monitoring, health, live signal"
+  },
+  "award": {
+   "group": "Measures and results",
+   "concepts": "quality, achievement, recognition"
+  },
+  "clock": {
+   "group": "Time",
+   "concepts": "timing, schedule, time of day"
+  },
+  "calendar": {
+   "group": "Time",
+   "concepts": "date, plan, calendar"
+  },
+  "calendar_check": {
+   "group": "Time",
+   "concepts": "scheduled and confirmed, date met"
+  },
+  "hourglass": {
+   "group": "Time",
+   "concepts": "waiting, lead time, running out"
+  },
+  "timer": {
+   "group": "Time",
+   "concepts": "speed, duration, time saved"
+  },
+  "history": {
+   "group": "Time",
+   "concepts": "history, audit trail, past versions"
+  },
+  "dollar": {
+   "group": "Money",
+   "concepts": "cost, value, spend"
+  },
+  "savings": {
+   "group": "Money",
+   "concepts": "savings, reserve"
+  },
+  "wallet": {
+   "group": "Money",
+   "concepts": "budget, funding"
+  },
+  "receipt": {
+   "group": "Money",
+   "concepts": "invoice, charge, spend record"
+  },
+  "truck": {
+   "group": "Operations and places",
+   "concepts": "logistics, delivery, transport"
+  },
+  "package": {
+   "group": "Operations and places",
+   "concepts": "release, package, shipment"
+  },
+  "inventory": {
+   "group": "Operations and places",
+   "concepts": "inventory, stock, catalog of items"
+  },
+  "factory": {
+   "group": "Operations and places",
+   "concepts": "production, manufacturing, plant"
+  },
+  "warehouse": {
+   "group": "Operations and places",
+   "concepts": "site, depot, facility"
+  },
+  "building": {
+   "group": "Operations and places",
+   "concepts": "office, business unit, organisation"
+  },
+  "location": {
+   "group": "Operations and places",
+   "concepts": "location, site, region"
+  },
+  "globe": {
+   "group": "Operations and places",
+   "concepts": "global, all regions, worldwide"
+  },
+  "route": {
+   "group": "Operations and places",
+   "concepts": "path, rollout route, journey"
+  },
+  "rocket": {
+   "group": "Change and momentum",
+   "concepts": "launch, go-live, acceleration"
+  },
+  "bolt": {
+   "group": "Change and momentum",
+   "concepts": "speed, instant, power"
+  },
+  "refresh": {
+   "group": "Change and momentum",
+   "concepts": "update, sync, refresh cycle"
+  },
+  "repeat": {
+   "group": "Change and momentum",
+   "concepts": "repeatable, recurring, routine"
+  },
+  "rollback": {
+   "group": "Change and momentum",
+   "concepts": "rollback, undo, reversal"
+  },
+  "layers": {
+   "group": "Change and momentum",
+   "concepts": "layers, stack, tiers of a solution"
+  },
+  "puzzle": {
+   "group": "Change and momentum",
+   "concepts": "fit, missing piece, component"
+  },
+  "sparkles": {
+   "group": "Change and momentum",
+   "concepts": "new capability, enhancement"
+  },
+  "lightbulb": {
+   "group": "Change and momentum",
+   "concepts": "idea, insight, recommendation"
+  },
+  "compass": {
+   "group": "Change and momentum",
+   "concepts": "strategy, orientation, direction"
+  },
+  "mountain": {
+   "group": "Change and momentum",
+   "concepts": "challenge, obstacle, ambition"
+  },
+  "flag": {
+   "group": "Change and momentum",
+   "concepts": "goal reached, marker, finish line"
+  },
+  "check_circle": {
+   "group": "Status and signals",
+   "concepts": "success, done, confirmed"
+  },
+  "warning": {
+   "group": "Status and signals",
+   "concepts": "risk, warning, caution"
+  },
+  "alert": {
+   "group": "Status and signals",
+   "concepts": "issue, attention needed"
+  },
+  "fail": {
+   "group": "Status and signals",
+   "concepts": "failure, blocked, rejected"
+  },
+  "ban": {
+   "group": "Status and signals",
+   "concepts": "not allowed, out of scope, prohibited"
+  },
+  "bell": {
+   "group": "Status and signals",
+   "concepts": "notification, alerting"
+  },
+  "mute": {
+   "group": "Status and signals",
+   "concepts": "mute alerts, suppress notifications"
+  },
+  "eye": {
+   "group": "Status and signals",
+   "concepts": "visibility, transparency, preview"
+  },
+  "search": {
+   "group": "Status and signals",
+   "concepts": "discovery, investigation, lookup"
+  },
+  "lifebuoy": {
+   "group": "Status and signals",
+   "concepts": "help, recovery, rescue"
+  },
+  "umbrella": {
+   "group": "Status and signals",
+   "concepts": "resilience, coverage, protection from impact"
+  },
+  "test": {
+   "group": "Knowledge and work",
+   "concepts": "testing, pilot, experiment"
+  },
+  "microscope": {
+   "group": "Knowledge and work",
+   "concepts": "analysis, deep inspection"
+  },
+  "document": {
+   "group": "Knowledge and work",
+   "concepts": "document, runbook, report"
+  },
+  "guide": {
+   "group": "Knowledge and work",
+   "concepts": "guide, knowledge base, reference"
+  },
+  "archive": {
+   "group": "Knowledge and work",
+   "concepts": "records, archive, retention"
+  },
+  "inbox": {
+   "group": "Knowledge and work",
+   "concepts": "intake, requests queue"
+  },
+  "send": {
+   "group": "Knowledge and work",
+   "concepts": "deploy, dispatch, submit"
+  },
+  "share": {
+   "group": "Knowledge and work",
+   "concepts": "share, distribute"
+  },
+  "upload": {
+   "group": "Knowledge and work",
+   "concepts": "push, publish, upload"
+  },
+  "download": {
+   "group": "Knowledge and work",
+   "concepts": "pull, adopt, download"
+  },
+  "settings": {
+   "group": "Knowledge and work",
+   "concepts": "settings, configuration, tuning"
+  },
+  "wrench": {
+   "group": "Knowledge and work",
+   "concepts": "maintenance, fix, remediation"
+  },
+  "hammer": {
+   "group": "Knowledge and work",
+   "concepts": "build, construct"
+  },
+  "presentation": {
+   "group": "Knowledge and work",
+   "concepts": "briefing, readout, presentation"
+  },
+  "edit": {
+   "group": "Knowledge and work",
+   "concepts": "edit, draft, author"
+  }
+ }
+}

@@ -1,0 +1,813 @@
+{
+ "generated": "2026-09-22T01:14:41",
+ "file_count": 2,
+ "files": [
+  {
+   "path": "examples/sources/depot_model.xlsx",
+   "name": "depot_model.xlsx",
+   "type": "xlsx",
+   "bytes": 7060,
+   "status": "parsed",
+   "note": "",
+   "headings": [],
+   "figures": [
+    {
+     "value": "2027",
+     "context": "2027 break",
+     "anchor": "depot_model.xlsx!Cost!H2"
+    },
+    {
+     "value": "2029",
+     "context": "2029",
+     "anchor": "depot_model.xlsx!Cost!H3"
+    },
+    {
+     "value": "2027",
+     "context": "Mar 2027",
+     "anchor": "depot_model.xlsx!Cost!H4"
+    },
+    {
+     "value": "14",
+     "context": "net of 14 transfers and 9 hires",
+     "anchor": "depot_model.xlsx!Transition!C3"
+    }
+   ],
+   "dates": [
+    {
+     "text": "Mar 2027",
+     "anchor": "depot_model.xlsx!Cost!H4"
+    }
+   ],
+   "structure": {
+    "sheets": [
+     "Utilisation",
+     "Cost",
+     "Transition"
+    ]
+   },
+   "sheets": [
+    {
+     "name": "Utilisation",
+     "rows": 10,
+     "cols": 8,
+     "headers": [
+      "Depot",
+      "Q1 25",
+      "Q2 25",
+      "Q3 25",
+      "Q4 25",
+      "Q1 26",
+      "Q2 26",
+      "FY25 avg"
+     ],
+     "columns": [
+      {
+       "column": "Q1 25",
+       "count": 9,
+       "min": 43.0,
+       "max": 68.0,
+       "sum": 498.0,
+       "max_at": "depot_model.xlsx!Utilisation!B2"
+      },
+      {
+       "column": "Q2 25",
+       "count": 9,
+       "min": 41.0,
+       "max": 70.0,
+       "sum": 501.0,
+       "max_at": "depot_model.xlsx!Utilisation!C2"
+      },
+      {
+       "column": "Q3 25",
+       "count": 9,
+       "min": 38.0,
+       "max": 72.0,
+       "sum": 505.0,
+       "max_at": "depot_model.xlsx!Utilisation!D2"
+      },
+      {
+       "column": "Q4 25",
+       "count": 9,
+       "min": 36.0,
+       "max": 74.0,
+       "sum": 502.0,
+       "max_at": "depot_model.xlsx!Utilisation!E2"
+      },
+      {
+       "column": "Q1 26",
+       "count": 9,
+       "min": 34.0,
+       "max": 71.0,
+       "sum": 487.0,
+       "max_at": "depot_model.xlsx!Utilisation!F2"
+      },
+      {
+       "column": "Q2 26",
+       "count": 9,
+       "min": 35.0,
+       "max": 73.0,
+       "sum": 498.0,
+       "max_at": "depot_model.xlsx!Utilisation!G2"
+      },
+      {
+       "column": "FY25 avg",
+       "count": 9,
+       "min": 34.0,
+       "max": 71.0,
+       "sum": 490.0,
+       "max_at": "depot_model.xlsx!Utilisation!H2"
+      }
+     ]
+    },
+    {
+     "name": "Cost",
+     "rows": 5,
+     "cols": 8,
+     "headers": [
+      "Depot",
+      "Lease $M",
+      "Labour $M",
+      "Overhead $M",
+      "Fuel $M",
+      "Volume share %",
+      "Exit cost $M",
+      "Lease end"
+     ],
+     "columns": [
+      {
+       "column": "Lease $M",
+       "count": 4,
+       "min": 0.6,
+       "max": 2.3,
+       "sum": 4.6,
+       "max_at": "depot_model.xlsx!Cost!B5"
+      },
+      {
+       "column": "Labour $M",
+       "count": 4,
+       "min": 0.5,
+       "max": 1.9,
+       "sum": 3.8,
+       "max_at": "depot_model.xlsx!Cost!C5"
+      },
+      {
+       "column": "Overhead $M",
+       "count": 4,
+       "min": 0.2,
+       "max": 0.8,
+       "sum": 1.6,
+       "max_at": "depot_model.xlsx!Cost!D5"
+      },
+      {
+       "column": "Fuel $M",
+       "count": 4,
+       "min": 0.0,
+       "max": 0.2,
+       "sum": 0.4,
+       "max_at": "depot_model.xlsx!Cost!E5"
+      },
+      {
+       "column": "Volume share %",
+       "count": 4,
+       "min": 4.0,
+       "max": 14.0,
+       "sum": 28.0,
+       "max_at": "depot_model.xlsx!Cost!F5"
+      },
+      {
+       "column": "Exit cost $M",
+       "count": 4,
+       "min": 0.3,
+       "max": 2.6,
+       "sum": 5.2,
+       "max_at": "depot_model.xlsx!Cost!G5"
+      }
+     ]
+    },
+    {
+     "name": "Transition",
+     "rows": 15,
+     "cols": 3,
+     "headers": [
+      "Item",
+      "Value",
+      "Note"
+     ],
+     "columns": [
+      {
+       "column": "Value",
+       "count": 14,
+       "min": -0.3,
+       "max": 2140.0,
+       "sum": 4503.4,
+       "max_at": "depot_model.xlsx!Transition!B8"
+      }
+     ]
+    }
+   ],
+   "labelled_figures": [
+    {
+     "label": "Easton",
+     "column": "Q1 25",
+     "value": 68,
+     "anchor": "depot_model.xlsx!Utilisation!B2"
+    },
+    {
+     "label": "Easton",
+     "column": "Q2 25",
+     "value": 70,
+     "anchor": "depot_model.xlsx!Utilisation!C2"
+    },
+    {
+     "label": "Easton",
+     "column": "Q3 25",
+     "value": 72,
+     "anchor": "depot_model.xlsx!Utilisation!D2"
+    },
+    {
+     "label": "Easton",
+     "column": "Q4 25",
+     "value": 74,
+     "anchor": "depot_model.xlsx!Utilisation!E2"
+    },
+    {
+     "label": "Easton",
+     "column": "Q1 26",
+     "value": 71,
+     "anchor": "depot_model.xlsx!Utilisation!F2"
+    },
+    {
+     "label": "Easton",
+     "column": "Q2 26",
+     "value": 73,
+     "anchor": "depot_model.xlsx!Utilisation!G2"
+    },
+    {
+     "label": "Easton",
+     "column": "FY25 avg",
+     "value": 71,
+     "anchor": "depot_model.xlsx!Utilisation!H2"
+    },
+    {
+     "label": "Fairmont",
+     "column": "Q1 25",
+     "value": 61,
+     "anchor": "depot_model.xlsx!Utilisation!B3"
+    },
+    {
+     "label": "Fairmont",
+     "column": "Q2 25",
+     "value": 64,
+     "anchor": "depot_model.xlsx!Utilisation!C3"
+    },
+    {
+     "label": "Fairmont",
+     "column": "Q3 25",
+     "value": 66,
+     "anchor": "depot_model.xlsx!Utilisation!D3"
+    },
+    {
+     "label": "Fairmont",
+     "column": "Q4 25",
+     "value": 68,
+     "anchor": "depot_model.xlsx!Utilisation!E3"
+    },
+    {
+     "label": "Fairmont",
+     "column": "Q1 26",
+     "value": 66,
+     "anchor": "depot_model.xlsx!Utilisation!F3"
+    },
+    {
+     "label": "Fairmont",
+     "column": "Q2 26",
+     "value": 67,
+     "anchor": "depot_model.xlsx!Utilisation!G3"
+    },
+    {
+     "label": "Fairmont",
+     "column": "FY25 avg",
+     "value": 66,
+     "anchor": "depot_model.xlsx!Utilisation!H3"
+    },
+    {
+     "label": "Carlton",
+     "column": "Q1 25",
+     "value": 55,
+     "anchor": "depot_model.xlsx!Utilisation!B4"
+    },
+    {
+     "label": "Carlton",
+     "column": "Q2 25",
+     "value": 54,
+     "anchor": "depot_model.xlsx!Utilisation!C4"
+    },
+    {
+     "label": "Carlton",
+     "column": "Q3 25",
+     "value": 58,
+     "anchor": "depot_model.xlsx!Utilisation!D4"
+    },
+    {
+     "label": "Carlton",
+     "column": "Q4 25",
+     "value": 57,
+     "anchor": "depot_model.xlsx!Utilisation!E4"
+    },
+    {
+     "label": "Carlton",
+     "column": "Q1 26",
+     "value": 56,
+     "anchor": "depot_model.xlsx!Utilisation!F4"
+    },
+    {
+     "label": "Carlton",
+     "column": "Q2 26",
+     "value": 59,
+     "anchor": "depot_model.xlsx!Utilisation!G4"
+    },
+    {
+     "label": "Carlton",
+     "column": "FY25 avg",
+     "value": 57,
+     "anchor": "depot_model.xlsx!Utilisation!H4"
+    },
+    {
+     "label": "Westbrook",
+     "column": "Q1 25",
+     "value": 58,
+     "anchor": "depot_model.xlsx!Utilisation!B5"
+    },
+    {
+     "label": "Westbrook",
+     "column": "Q2 25",
+     "value": 60,
+     "anchor": "depot_model.xlsx!Utilisation!C5"
+    },
+    {
+     "label": "Westbrook",
+     "column": "Q3 25",
+     "value": 61,
+     "anchor": "depot_model.xlsx!Utilisation!D5"
+    },
+    {
+     "label": "Westbrook",
+     "column": "Q4 25",
+     "value": 62,
+     "anchor": "depot_model.xlsx!Utilisation!E5"
+    },
+    {
+     "label": "Westbrook",
+     "column": "Q1 26",
+     "value": 60,
+     "anchor": "depot_model.xlsx!Utilisation!F5"
+    },
+    {
+     "label": "Westbrook",
+     "column": "Q2 26",
+     "value": 61,
+     "anchor": "depot_model.xlsx!Utilisation!G5"
+    },
+    {
+     "label": "Westbrook",
+     "column": "FY25 avg",
+     "value": 60,
+     "anchor": "depot_model.xlsx!Utilisation!H5"
+    },
+    {
+     "label": "Hallam",
+     "column": "Q1 25",
+     "value": 61,
+     "anchor": "depot_model.xlsx!Utilisation!B6"
+    },
+    {
+     "label": "Hallam",
+     "column": "Q2 25",
+     "value": 62,
+     "anchor": "depot_model.xlsx!Utilisation!C6"
+    },
+    {
+     "label": "Hallam",
+     "column": "Q3 25",
+     "value": 63,
+     "anchor": "depot_model.xlsx!Utilisation!D6"
+    },
+    {
+     "label": "Hallam",
+     "column": "Q4 25",
+     "value": 62,
+     "anchor": "depot_model.xlsx!Utilisation!E6"
+    },
+    {
+     "label": "Hallam",
+     "column": "Q1 26",
+     "value": 61,
+     "anchor": "depot_model.xlsx!Utilisation!F6"
+    },
+    {
+     "label": "Hallam",
+     "column": "Q2 26",
+     "value": 62,
+     "anchor": "depot_model.xlsx!Utilisation!G6"
+    },
+    {
+     "label": "Hallam",
+     "column": "FY25 avg",
+     "value": 62,
+     "anchor": "depot_model.xlsx!Utilisation!H6"
+    },
+    {
+     "label": "Norcross",
+     "column": "Q1 25",
+     "value": 63,
+     "anchor": "depot_model.xlsx!Utilisation!B7"
+    },
+    {
+     "label": "Norcross",
+     "column": "Q2 25",
+     "value": 64,
+     "anchor": "depot_model.xlsx!Utilisation!C7"
+    },
+    {
+     "label": "Norcross",
+     "column": "Q3 25",
+     "value": 65,
+     "anchor": "depot_model.xlsx!Utilisation!D7"
+    },
+    {
+     "label": "Norcross",
+     "column": "Q4 25",
+     "value": 64,
+     "anchor": "depot_model.xlsx!Utilisation!E7"
+    },
+    {
+     "label": "Norcross",
+     "column": "Q1 26",
+     "value": 63,
+     "anchor": "depot_model.xlsx!Utilisation!F7"
+    },
+    {
+     "label": "Norcross",
+     "column": "Q2 26",
+     "value": 64,
+     "anchor": "depot_model.xlsx!Utilisation!G7"
+    },
+    {
+     "label": "Norcross",
+     "column": "FY25 avg",
+     "value": 64,
+     "anchor": "depot_model.xlsx!Utilisation!H7"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Q1 25",
+     "value": 44,
+     "anchor": "depot_model.xlsx!Utilisation!B8"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Q2 25",
+     "value": 41,
+     "anchor": "depot_model.xlsx!Utilisation!C8"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Q3 25",
+     "value": 38,
+     "anchor": "depot_model.xlsx!Utilisation!D8"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Q4 25",
+     "value": 36,
+     "anchor": "depot_model.xlsx!Utilisation!E8"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Q1 26",
+     "value": 34,
+     "anchor": "depot_model.xlsx!Utilisation!F8"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Q2 26",
+     "value": 35,
+     "anchor": "depot_model.xlsx!Utilisation!G8"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "FY25 avg",
+     "value": 34,
+     "anchor": "depot_model.xlsx!Utilisation!H8"
+    },
+    {
+     "label": "Brookline",
+     "column": "Q1 25",
+     "value": 43,
+     "anchor": "depot_model.xlsx!Utilisation!B9"
+    },
+    {
+     "label": "Brookline",
+     "column": "Q2 25",
+     "value": 42,
+     "anchor": "depot_model.xlsx!Utilisation!C9"
+    },
+    {
+     "label": "Brookline",
+     "column": "Q3 25",
+     "value": 40,
+     "anchor": "depot_model.xlsx!Utilisation!D9"
+    },
+    {
+     "label": "Brookline",
+     "column": "Q4 25",
+     "value": 39,
+     "anchor": "depot_model.xlsx!Utilisation!E9"
+    },
+    {
+     "label": "Brookline",
+     "column": "Q1 26",
+     "value": 37,
+     "anchor": "depot_model.xlsx!Utilisation!F9"
+    },
+    {
+     "label": "Brookline",
+     "column": "Q2 26",
+     "value": 38,
+     "anchor": "depot_model.xlsx!Utilisation!G9"
+    },
+    {
+     "label": "Brookline",
+     "column": "FY25 avg",
+     "value": 37,
+     "anchor": "depot_model.xlsx!Utilisation!H9"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Q1 25",
+     "value": 45,
+     "anchor": "depot_model.xlsx!Utilisation!B10"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Q2 25",
+     "value": 44,
+     "anchor": "depot_model.xlsx!Utilisation!C10"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Q3 25",
+     "value": 42,
+     "anchor": "depot_model.xlsx!Utilisation!D10"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Q4 25",
+     "value": 40,
+     "anchor": "depot_model.xlsx!Utilisation!E10"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Q1 26",
+     "value": 39,
+     "anchor": "depot_model.xlsx!Utilisation!F10"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Q2 26",
+     "value": 39,
+     "anchor": "depot_model.xlsx!Utilisation!G10"
+    },
+    {
+     "label": "Oakmont",
+     "column": "FY25 avg",
+     "value": 39,
+     "anchor": "depot_model.xlsx!Utilisation!H10"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Lease $M",
+     "value": 0.9,
+     "anchor": "depot_model.xlsx!Cost!B2"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Labour $M",
+     "value": 0.8,
+     "anchor": "depot_model.xlsx!Cost!C2"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Overhead $M",
+     "value": 0.3,
+     "anchor": "depot_model.xlsx!Cost!D2"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Fuel $M",
+     "value": 0.1,
+     "anchor": "depot_model.xlsx!Cost!E2"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Volume share %",
+     "value": 5,
+     "anchor": "depot_model.xlsx!Cost!F2"
+    },
+    {
+     "label": "Ridgeway",
+     "column": "Exit cost $M",
+     "value": 1.4,
+     "anchor": "depot_model.xlsx!Cost!G2"
+    },
+    {
+     "label": "Brookline",
+     "column": "Lease $M",
+     "value": 0.8,
+     "anchor": "depot_model.xlsx!Cost!B3"
+    },
+    {
+     "label": "Brookline",
+     "column": "Labour $M",
+     "value": 0.6,
+     "anchor": "depot_model.xlsx!Cost!C3"
+    },
+    {
+     "label": "Brookline",
+     "column": "Overhead $M",
+     "value": 0.3,
+     "anchor": "depot_model.xlsx!Cost!D3"
+    },
+    {
+     "label": "Brookline",
+     "column": "Fuel $M",
+     "value": 0.1,
+     "anchor": "depot_model.xlsx!Cost!E3"
+    },
+    {
+     "label": "Brookline",
+     "column": "Volume share %",
+     "value": 5,
+     "anchor": "depot_model.xlsx!Cost!F3"
+    },
+    {
+     "label": "Brookline",
+     "column": "Exit cost $M",
+     "value": 0.9,
+     "anchor": "depot_model.xlsx!Cost!G3"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Lease $M",
+     "value": 0.6,
+     "anchor": "depot_model.xlsx!Cost!B4"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Labour $M",
+     "value": 0.5,
+     "anchor": "depot_model.xlsx!Cost!C4"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Overhead $M",
+     "value": 0.2,
+     "anchor": "depot_model.xlsx!Cost!D4"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Fuel $M",
+     "value": 0,
+     "anchor": "depot_model.xlsx!Cost!E4"
+    },
+    {
+     "label": "Oakmont",
+     "column": "Volume share %",
+     "value": 4,
+     "anchor": "depot_model.xlsx!Cost!F4"
+    }
+   ]
+  },
+  {
+   "path": "examples/sources/operator_interviews.md",
+   "name": "operator_interviews.md",
+   "type": "md",
+   "bytes": 1047,
+   "status": "parsed",
+   "note": "",
+   "headings": [
+    {
+     "text": "Halvard Freight — operator interview notes (Aug 2026)",
+     "level": "h1",
+     "anchor": "operator_interviews.md line 1"
+    },
+    {
+     "text": "Scope",
+     "level": "h2",
+     "anchor": "operator_interviews.md line 3"
+    },
+    {
+     "text": "What managers said",
+     "level": "h2",
+     "anchor": "operator_interviews.md line 6"
+    },
+    {
+     "text": "Constraints raised",
+     "level": "h2",
+     "anchor": "operator_interviews.md line 14"
+    }
+   ],
+   "figures": [
+    {
+     "value": "2026",
+     "context": "# Halvard Freight — operator interview notes (Aug 2026)",
+     "anchor": "operator_interviews.md line 1"
+    },
+    {
+     "value": "11",
+     "context": "ith six depot managers and the regional operations manager, 11–14 Aug 2026. All figures fictional.",
+     "anchor": "operator_interviews.md line 4"
+    },
+    {
+     "value": "14",
+     "context": "six depot managers and the regional operations manager, 11–14 Aug 2026. All figures fictional.",
+     "anchor": "operator_interviews.md line 4"
+    },
+    {
+     "value": "2026",
+     "context": "pot managers and the regional operations manager, 11–14 Aug 2026. All figures fictional.",
+     "anchor": "operator_interviews.md line 4"
+    },
+    {
+     "value": "2024",
+     "context": "lost its anchor customer when the Carver contract ended in 2024; volume fell 22% and has not recovered.",
+     "anchor": "operator_interviews.md line 7"
+    },
+    {
+     "value": "22%",
+     "context": "ustomer when the Carver contract ended in 2024; volume fell 22% and has not recovered.",
+     "anchor": "operator_interviews.md line 7"
+    },
+    {
+     "value": "2023,",
+     "context": "- Easton expanded in 2023, adding dock capacity 41 miles from Brookline.",
+     "anchor": "operator_interviews.md line 8"
+    },
+    {
+     "value": "41",
+     "context": "- Easton expanded in 2023, adding dock capacity 41 miles from Brookline.",
+     "anchor": "operator_interviews.md line 8"
+    },
+    {
+     "value": "41",
+     "context": "- Brookline sits 41 miles from Easton. The Brookline manager estimates Tuesday",
+     "anchor": "operator_interviews.md line 9"
+    },
+    {
+     "value": "2027",
+     "context": "- Oakmont lease renews in March 2027 with a 12% rent step-up.",
+     "anchor": "operator_interviews.md line 10"
+    },
+    {
+     "value": "12%",
+     "context": "- Oakmont lease renews in March 2027 with a 12% rent step-up.",
+     "anchor": "operator_interviews.md line 10"
+    },
+    {
+     "value": "71%",
+     "context": "- Easton runs at about 71% dock utilisation and could absorb more volume with a second",
+     "anchor": "operator_interviews.md line 11"
+    },
+    {
+     "value": "14",
+     "context": "- 14 of the 23 staff at the three sites live within 30 miles of",
+     "anchor": "operator_interviews.md line 16"
+    },
+    {
+     "value": "23",
+     "context": "- 14 of the 23 staff at the three sites live within 30 miles of a receivin",
+     "anchor": "operator_interviews.md line 16"
+    },
+    {
+     "value": "30",
+     "context": "- 14 of the 23 staff at the three sites live within 30 miles of a receiving site.",
+     "anchor": "operator_interviews.md line 16"
+    }
+   ],
+   "dates": [
+    {
+     "text": "Aug 2026",
+     "anchor": "operator_interviews.md line 1"
+    },
+    {
+     "text": "March 2027",
+     "anchor": "operator_interviews.md line 10"
+    }
+   ],
+   "structure": {
+    "lines": 16,
+    "words": 175
+   }
+  }
+ ]
+}

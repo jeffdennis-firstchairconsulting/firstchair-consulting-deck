@@ -1,0 +1,306 @@
+{
+  "_comment": "Evidence ledger for the worked example. Every entry: finding, grade, origin, sources (citation anchors from sources.json), serves (frame question, key line id, decision, risk, or must_include item). All figures fictional.",
+  "entries": [
+    {
+      "id": "E1",
+      "finding": "Ridgeway, Brookline and Oakmont run at 34-39% dock utilisation; Easton at 71% and Fairmont at 66% have spare capacity",
+      "value": "34%, 37%, 39%; 71%, 66%",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Utilisation!H8",
+        "depot_model.xlsx!Utilisation!H2"
+      ],
+      "serves": [
+        "KL1",
+        "KL2",
+        "q3_situation"
+      ]
+    },
+    {
+      "id": "E2",
+      "finding": "The three low sites have been below 45% for six consecutive quarters",
+      "value": "Q1 25 to Q2 26",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Utilisation!B8"
+      ],
+      "serves": [
+        "KL1"
+      ]
+    },
+    {
+      "id": "E3",
+      "finding": "The three sites carry $5.2M of fixed cost (lease + labour + overhead + fuel) for 14% of network volume",
+      "value": "$5.2M; 14%",
+      "grade": "core",
+      "origin": "derived",
+      "sources": [
+        "depot_model.xlsx!Cost!B5",
+        "depot_model.xlsx!Cost!F5"
+      ],
+      "arithmetic": "2.3 + 1.9 + 0.8 + 0.2 = 5.2; volume share row 5 = 14%",
+      "serves": [
+        "KL1",
+        "q2_message"
+      ]
+    },
+    {
+      "id": "E4",
+      "finding": "Re-routed peak week at Easton models at 91% utilisation, leaving 18% headroom on average",
+      "value": "91%; 18%",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Transition!B11",
+        "depot_model.xlsx!Transition!B12"
+      ],
+      "serves": [
+        "KL2",
+        "risk"
+      ]
+    },
+    {
+      "id": "E5",
+      "finding": "17 of 2,140 customers served by the three sites would lose next-day service; coverage holds at 99.2%",
+      "value": "17; 2,140; 99.2%",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Transition!B8",
+        "depot_model.xlsx!Transition!B9",
+        "depot_model.xlsx!Transition!B10"
+      ],
+      "serves": [
+        "KL2",
+        "q2_message"
+      ]
+    },
+    {
+      "id": "E6",
+      "finding": "Annual run-rate saving: lease $2.3M, labour $1.6M, overhead $0.5M, less fuel $0.3M, net $4.1M",
+      "value": "$4.1M",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Transition!B2",
+        "depot_model.xlsx!Transition!B6"
+      ],
+      "serves": [
+        "KL3",
+        "q2_message",
+        "q1_outcome"
+      ]
+    },
+    {
+      "id": "E7",
+      "finding": "One-time transition cost $2.6M including lease exit penalties",
+      "value": "$2.6M",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Transition!B7"
+      ],
+      "serves": [
+        "KL3",
+        "decision",
+        "q1_outcome"
+      ]
+    },
+    {
+      "id": "E8",
+      "finding": "Payback inside eight months",
+      "value": "7.6 months",
+      "grade": "supporting",
+      "origin": "derived",
+      "sources": [
+        "depot_model.xlsx!Transition!B6",
+        "depot_model.xlsx!Transition!B7"
+      ],
+      "arithmetic": "2.6 / (4.1 / 12) = 7.6",
+      "serves": [
+        "KL3"
+      ]
+    },
+    {
+      "id": "E9",
+      "finding": "Ridgeway has a recognised union; consultation typically takes four months and must precede any closure",
+      "value": "4 months",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "operator_interviews.md line 15"
+      ],
+      "serves": [
+        "risk",
+        "decision"
+      ]
+    },
+    {
+      "id": "E10",
+      "finding": "Oakmont lease renews March 2027 with a 12% step-up",
+      "value": "Mar 2027; +12%",
+      "grade": "supporting",
+      "origin": "stated",
+      "sources": [
+        "operator_interviews.md line 9"
+      ],
+      "serves": [
+        "q3_situation",
+        "decision"
+      ]
+    },
+    {
+      "id": "E11",
+      "finding": "Volume at Ridgeway fell 22% after the Carver contract ended in 2024",
+      "value": "-22%",
+      "grade": "supporting",
+      "origin": "stated",
+      "sources": [
+        "operator_interviews.md line 7"
+      ],
+      "serves": [
+        "q3_situation"
+      ]
+    },
+    {
+      "id": "E12",
+      "finding": "14 of 23 staff at the three sites live within 30 miles of a receiving site",
+      "value": "14 of 23",
+      "grade": "supporting",
+      "origin": "stated",
+      "sources": [
+        "operator_interviews.md line 16"
+      ],
+      "serves": [
+        "risk"
+      ]
+    },
+    {
+      "id": "E13",
+      "finding": "Across documents: every low-utilisation site has a structural cause (lost contract, proximity to a larger site, lease step-up) rather than a management one; none of the three managers disputed the numbers",
+      "grade": "supporting",
+      "origin": "derived",
+      "sources": [
+        "operator_interviews.md line 7",
+        "operator_interviews.md line 8",
+        "operator_interviews.md line 9",
+        "depot_model.xlsx!Utilisation!H8"
+      ],
+      "arithmetic": "pattern across three interviews and the utilisation sheet",
+      "serves": [
+        "q3_situation",
+        "KL1"
+      ]
+    },
+    {
+      "id": "E14",
+      "finding": "Easton could add a second afternoon shift",
+      "grade": "context",
+      "origin": "stated",
+      "sources": [
+        "operator_interviews.md line 10"
+      ],
+      "serves": []
+    },
+    {
+      "id": "E15",
+      "finding": "Interview scope and dates",
+      "grade": "unrelated",
+      "origin": "stated",
+      "sources": [
+        "operator_interviews.md line 4"
+      ],
+      "serves": []
+    },
+    {
+      "id": "E16",
+      "finding": "Of the 2,140 customers, 2,061 re-route within the model and 62 more with a 4pm cut-off",
+      "value": "2,061; 62",
+      "grade": "core",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Transition!B13",
+        "depot_model.xlsx!Transition!B14"
+      ],
+      "serves": [
+        "KL2"
+      ]
+    },
+    {
+      "id": "E17",
+      "finding": "Gross saving before fuel is $4.4M a year",
+      "value": "$4.4M",
+      "grade": "supporting",
+      "origin": "derived",
+      "sources": [
+        "depot_model.xlsx!Transition!B2",
+        "depot_model.xlsx!Transition!B15"
+      ],
+      "arithmetic": "2.3 + 1.6 + 0.5 = 4.4",
+      "serves": [
+        "KL3"
+      ]
+    },
+    {
+      "id": "E18",
+      "finding": "Annual cost per low site: Ridgeway 2.1, Brookline 1.8, Oakmont 1.3 ($M, lease + labour + overhead + fuel)",
+      "value": "2.1; 1.8; 1.3",
+      "grade": "supporting",
+      "origin": "derived",
+      "sources": [
+        "depot_model.xlsx!Cost!B2",
+        "depot_model.xlsx!Cost!E4"
+      ],
+      "arithmetic": "0.9 + 0.8 + 0.3 + 0.1 = 2.1; 0.8 + 0.6 + 0.3 + 0.1 = 1.8; 0.6 + 0.5 + 0.2 + 0.0 = 1.3",
+      "serves": [
+        "KL1"
+      ]
+    },
+    {
+      "id": "E19",
+      "finding": "Exit cost and lease end: Ridgeway $1.4M / 2027 break; Brookline $0.9M / 2029; Oakmont $0.3M / Mar 2027",
+      "value": "1.4; 0.9; 0.3",
+      "grade": "supporting",
+      "origin": "stated",
+      "sources": [
+        "depot_model.xlsx!Cost!G2",
+        "depot_model.xlsx!Cost!H4"
+      ],
+      "serves": [
+        "KL3",
+        "decision"
+      ]
+    },
+    {
+      "id": "E20",
+      "finding": "Easton expanded in 2023, adding dock capacity 41 miles from Brookline",
+      "value": "2023; 41 miles",
+      "grade": "supporting",
+      "origin": "stated",
+      "sources": [
+        "operator_interviews.md line 8"
+      ],
+      "serves": [
+        "q3_situation",
+        "KL1"
+      ]
+    },
+    {
+      "id": "E21",
+      "finding": "The three sites run below 40% utilisation (rounded from 34-39%)",
+      "value": "40%",
+      "grade": "supporting",
+      "origin": "derived",
+      "sources": [
+        "depot_model.xlsx!Utilisation!H8"
+      ],
+      "arithmetic": "max(34, 37, 39) = 39 < 40",
+      "serves": [
+        "q2_message",
+        "KL1"
+      ]
+    }
+  ]
+}

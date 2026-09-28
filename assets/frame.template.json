@@ -1,0 +1,32 @@
+{
+  "_comment": "The frame is the meta-information about the deck, not its content. Fill anchor first (before reading anything), then the nine after the parse. Each answer records its origin: user (they said it), inferred (from the sources, cite the anchor), drafted (the agent wrote it; needs a yes), default. check_frame.py tests each answer and prints the probe for any that fail. The readback paragraph at the end is what the user confirms, and what they paste next time to skip the interview.",
+
+  "anchor": {
+    "outcome": { "answer": "", "origin": "user" },
+    "audience": { "answer": "", "origin": "user" },
+    "kind_and_size": { "answer": "", "origin": "user" }
+  },
+
+  "frame": {
+    "q1_outcome":      { "answer": "", "origin": "user" },
+    "q2_message":      { "answer": "", "origin": "drafted", "evidence": "" },
+    "q3_situation":    { "situation": "", "complication": "", "origin": "inferred", "evidence": "" },
+    "q4_audience":     { "who_decides": "", "what_they_believe": "", "pushback": "", "technical_level": "low | medium | high", "origin": "user" },
+    "q5_position":     { "answer": "expert | vendor | team_member", "origin": "user" },
+    "q6_delivery":     { "answer": "read | presented | sent_then_presented", "origin": "user" },
+    "q7_length":       { "slides": 0, "minutes": 0, "exec_cut": false, "origin": "user" },
+    "q8_genre":        { "answer": "proposal | findings | status | business_case | working_session", "origin": "inferred", "evidence": "" },
+    "q9_constraints":  { "must_include": [], "must_exclude": [], "must_match": [], "origin": "user" }
+  },
+
+  "packaging": {
+    "logo": "",
+    "status": "Draft \u2014 for discussion",
+    "classification": "",
+    "locale": "en-US",
+    "credit": true
+  },
+
+  "tier": "single | short | full | long",
+  "readback": ""
+}

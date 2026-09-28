@@ -1,0 +1,83 @@
+{
+  "_comment": "A brief is what the renderer reads. Normally to_deck_brief.py writes it from the storyboard; write one by hand only for a single slide or a quick revision. Every slide: pattern + its fields (references/patterns.md), plus eyebrow (the label), headline (the finding, sentence case), subtitle, band (string, or {text, style: statement|takeaway|bottom_line, label}), source (required on data patterns), notes, tune. Icons by name from references/icons.md. Never leave TBD/TODO; check_brief.js flags them.",
+  "meta": {
+    "customer": "",
+    "program": "",
+    "docType": "",
+    "audience": "",
+    "objective": "",
+    "provenance": "",
+    "author": "",
+    "title": "",
+    "tier": "single | short | full | long",
+    "locale": "en-US",
+    "status": "Draft — for discussion",
+    "version": "",
+    "classification": "",
+    "logo": "",
+    "credit": true
+  },
+  "slides": [
+    {
+      "pattern": "title",
+      "eyebrow": "",
+      "headline": "",
+      "subtitle": "",
+      "note": "",
+      "notes": ""
+    },
+    {
+      "pattern": "cards",
+      "eyebrow": "",
+      "headline": "",
+      "subtitle": "",
+      "cards": [
+        {
+          "kicker": "",
+          "title": "",
+          "body": "",
+          "accent": false
+        }
+      ],
+      "band": "",
+      "notes": "",
+      "tune": {}
+    },
+    {
+      "pattern": "chart",
+      "eyebrow": "",
+      "headline": "",
+      "subtitle": "",
+      "chart": {
+        "kind": "column | bar | stacked | stacked100 | line | area",
+        "labels": [],
+        "values": [],
+        "units": "",
+        "highlightIndex": null
+      },
+      "card": {
+        "kicker": "",
+        "title": "",
+        "body": []
+      },
+      "band": "",
+      "source": "REQUIRED on data slides",
+      "notes": ""
+    },
+    {
+      "pattern": "ask",
+      "eyebrow": "",
+      "headline": "",
+      "subtitle": "",
+      "cards": [
+        {
+          "kicker": "Decision",
+          "title": "",
+          "body": ""
+        }
+      ],
+      "band": "",
+      "notes": ""
+    }
+  ]
+}

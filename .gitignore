@@ -1,0 +1,29 @@
+# runtime installs (npm install pptxgenjs)
+node_modules/
+/package.json
+/package-lock.json
+__pycache__/
+
+# build output; the shipped examples are re-included below
+*.pptx
+*.pdf
+*.stamp.json
+!examples/Example_Deck.pptx
+!examples/Example_Deck.pdf
+!examples/Pattern_Catalogue.pptx
+!examples/Pattern_Catalogue.pdf
+slide-*.jpg
+s-*.jpg
+
+# working files from a run in the repo root (anchored: references/audit.md is part of the skill)
+/brief.json
+/sources.json
+/ledger.json
+/ledger.md
+/frame.json
+/storyboard.json
+/storyboard.md
+/audit.md
+
+# slide images from scripts/render_slides.py
+*_qa/
