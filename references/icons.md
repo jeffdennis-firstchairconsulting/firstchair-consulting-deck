@@ -1,6 +1,6 @@
 # Icons
 
-112 icons, pre-rendered from Lucide (ISC licence, `assets/icons/LICENSE.txt`) in two colourways: `white/` for teal and navy badges, `navy/` for mint and amber badges and bare glyphs. The renderer picks the colourway; you pick the name.
+112 icons, pre-rendered from Lucide (ISC licence, `assets/icons/LICENSE.txt`) in two colourways (white glyphs for teal and navy badges; navy glyphs for mint and amber badges and bare icons), packed into `assets/icons/icon_images.json`. `assets/icons/icons.json` is the index of names and concepts: read that one, never the image file. The renderer picks the colourway; you pick the name.
 
 ## How to choose
 

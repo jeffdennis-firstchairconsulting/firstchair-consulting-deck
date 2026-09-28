@@ -100,8 +100,11 @@ def check(root):
     if isinstance(desc, str):
         if len(desc) < 80:
             warn("description is short — it is what the platform matches on; name the triggers")
-        if len(desc) > 1400:
-            warn(f"description is {len(desc)} chars — some importers truncate; tighten it")
+        # Claude's skill upload refuses a description over 200 characters.
+        # Keep the short trigger sentence here and the full trigger list in the body.
+        if len(desc) > 200:
+            fail(f"description is {len(desc)} chars; Claude's skill upload allows 200 at most. "
+                 "Move the detail into the SKILL.md body and keep the triggers here")
 
     # 5. manifest vs disk
     on_disk = {str(p.relative_to(root)) for p in root.rglob("*")
@@ -163,6 +166,19 @@ def check(root):
                     fail(f".gitignore would drop shipped file `{lost}` on push; anchor or negate the pattern")
         else:
             warn("git not found; could not check that .gitignore keeps every shipped file")
+
+    # 6b. file count: Claude's skill upload refuses a zip with more than 200
+    # entries ("Zip contains too many files"). Directories inside the zip can
+    # count too, so count both, plus the wrapper folder the upload needs.
+    skip = set(ARTIFACTS) | {".git"}
+    n_files = sum(1 for p in root.rglob("*") if p.is_file() and not skip.intersection(p.relative_to(root).parts))
+    n_dirs = sum(1 for p in root.rglob("*") if p.is_dir() and not skip.intersection(p.relative_to(root).parts))
+    total = n_files + n_dirs + 1
+    if total > 200:
+        fail(f"{n_files} files and {n_dirs} folders ({total} zip entries with the wrapper folder); Claude's skill "
+             "upload allows 200. Pack many small assets into one data file (see assets/icons/icon_images.json)")
+    elif total > 170:
+        warn(f"{total} zip entries; Claude's skill upload allows 200")
 
     # 7. artifacts — __pycache__ is self-inflicted and safe to remove; the rest is a failure
     import shutil

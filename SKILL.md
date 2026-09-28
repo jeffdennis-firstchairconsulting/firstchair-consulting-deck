@@ -1,9 +1,11 @@
 ---
 name: "firstchair-consulting-deck"
-description: "Build consultant-grade PowerPoint decks the way an analyst does: a short interview for the frame, a graded read of the user's documents into an evidence ledger, a Pyramid Principle storyboard with a ghost-deck checkpoint, a native editable .pptx rendered from 46 exhibit patterns in a fixed house style (including a one-slide family for single-slide asks and impact slides), a mechanical and visual layout pass, and a fact audit that traces every figure back to its source. Use whenever the user asks for a deck, slides, a presentation, a proposal, an ecosystem or integration diagram, a status readout, a findings readout, a business case, an executive summary, a board pack, a storyboard, a single slide, a one-slide summary, an impact slide, or a .pptx, from any material or from none. Also use when they ask to revise, extend or re-audit a deck built with it. Asks before it invents; never fabricates a figure."
+description: "Builds consultant-grade PowerPoint decks and single slides in the First Chair house style, and revises decks built with it. Use for any deck, slides, storyboard, exhibit or .pptx request."
 ---
 
 # First Chair consulting deck
+
+**When to use:** Build consultant-grade PowerPoint decks the way an analyst does: a short interview for the frame, a graded read of the user's documents into an evidence ledger, a Pyramid Principle storyboard with a ghost-deck checkpoint, a native editable .pptx rendered from 46 exhibit patterns in a fixed house style (including a one-slide family for single-slide asks and impact slides), a mechanical and visual layout pass, and a fact audit that traces every figure back to its source. Use whenever the user asks for a deck, slides, a presentation, a proposal, an ecosystem or integration diagram, a status readout, a findings readout, a business case, an executive summary, a board pack, a storyboard, a single slide, a one-slide summary, an impact slide, or a .pptx, from any material or from none. Also use when they ask to revise, extend or re-audit a deck built with it. Asks before it invents; never fabricates a figure.
 
 One skill that takes a user from a folder of material (or nothing) to a deck a
 management consultant would put in front of a board. It replaces the
@@ -314,7 +316,7 @@ what the conversation, a pasted frame, or the sources already answer.
 | `assets/deck_patterns.js` | composed exhibits, content-sized |
 | `assets/deck_renderer.js` | brief → deck; 46 patterns; `tune` blocks; logo, markings, credit |
 | `assets/font_metrics.json` | Georgia and Calibri advance widths, shared with `layout_check.py` (generated, do not edit) |
-| `assets/icons/` | 112 icons in two colourways, `icons.json` index, Lucide ISC licence |
+| `assets/icons/` | `icons.json` (112 icon names and the concepts each expresses: read this one), `icon_images.json` (the images, packed; never read it), Lucide ISC licence |
 | `assets/fonts/` | Gelasio (Georgia-compatible, SIL OFL) for the visual-QA render only |
 | `assets/frame.template.json` · `storyboard.template.json` · `brief.template.json` | the three documents you fill, empty |
 | `scripts/parse_sources.py` · `build_ledger.py` | stage 1 |

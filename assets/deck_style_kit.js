@@ -171,19 +171,25 @@ function sourceLine(s, text, onDark = false) {
 /* ----------------------------- ICONS -------------------------------------- */
 const ICON_DIR = path.join(__dirname, "icons");
 const ICONS = JSON.parse(fs.readFileSync(path.join(ICON_DIR, "icons.json"), "utf8")).icons;
-function iconPath(name, colorway = "white") {
+/* The images live in one JSON file (base64 PNG, two colourways) rather than
+ * 224 separate files: skill uploads cap the file count. Loaded on first use. */
+let ICON_IMAGES = null;
+function iconData(name, colorway = "white") {
   if (!ICONS[name]) throw new Error(`unknown icon "${name}". Pick one from assets/icons/icons.json (references/icons.md).`);
-  return path.join(ICON_DIR, colorway, name + ".png");
+  if (!ICON_IMAGES) ICON_IMAGES = JSON.parse(fs.readFileSync(path.join(ICON_DIR, "icon_images.json"), "utf8")).images;
+  const b64 = (ICON_IMAGES[name] || {})[colorway];
+  if (!b64) throw new Error(`icon "${name}" has no ${colorway} image in assets/icons/icon_images.json; the skill is incomplete`);
+  return "image/png;base64," + b64;
 }
 /** icon in a filled circle. tone: "teal" (white glyph on teal, any surface) | "mint" (navy glyph on mint, light page) | "navy" | "amber" */
 function iconBadge(s, name, x, y, d, tone = "teal") {
   const fill = { teal: T.TEAL, mint: T.MINT, navy: T.NAVY, amber: T.AMBER }[tone] || T.TEAL;
   s.addShape("ellipse", { x, y, w: d, h: d, fill: { color: fill }, line: { type: "none" } });
   const g = d * 0.56;
-  s.addImage({ path: iconPath(name, tone === "mint" || tone === "amber" ? "navy" : "white"), x: x + (d - g) / 2, y: y + (d - g) / 2, w: g, h: g });
+  s.addImage({ data: iconData(name, tone === "mint" || tone === "amber" ? "navy" : "white"), x: x + (d - g) / 2, y: y + (d - g) / 2, w: g, h: g });
 }
 /** bare glyph, no circle */
-function icon(s, name, x, y, d, colorway = "navy") { s.addImage({ path: iconPath(name, colorway), x, y, w: d, h: d }); }
+function icon(s, name, x, y, d, colorway = "navy") { s.addImage({ data: iconData(name, colorway), x, y, w: d, h: d }); }
 
 /* ----------------------------- HEADER STACK -------------------------------- */
 function eyebrow(s, text, onDark = false, y = 0.46) {
@@ -352,7 +358,7 @@ function numeral(s, n, x, y, w, h, size = 26) { htxt(s, String(n), { x, y, w, h,
 
 const KIT = { T, PALETTE, FONT, HEAD, BODYF, SZ, PW, PH, ML, CW, RULE_H, EDGE, FOOTER_Y, SOURCE_Y, CONTENT_TOP, CONTENT_BOTTOM,
   configure, deckConfig, softShadow, bgWhite, bgPage, bgNavy, topRule, rect, txt, htxt, footer, sourceLine,
-  ICONS, iconPath, iconBadge, icon,
+  ICONS, iconData, iconBadge, icon,
   eyebrow, headline, subtitle, sectionLabel, card, cardNeed, pill, statusPill, ragKey, RAG, ragDot, harveyBall,
   band, bandNeed, thesisBand, arrow, arrowDown, hline, vline, chevron, numeral,
   textWidth, lineCount, textHeight, headHeight, fitSize, balanceBreak };

@@ -88,6 +88,19 @@ the skill is relative and holds either way. Run `python3 scripts/preflight.py`
 before publishing: it strict-parses the frontmatter and checks the things that
 have broken imports before.
 
+## Installing in Claude (claude.ai and the desktop app)
+
+Customize → Skills → + → Create skill → Upload a skill, with code execution on.
+Claude's upload wants the skill **inside a folder** in the zip
+(`firstchair-consulting-deck/SKILL.md`), unlike the GitHub layout, and allows at
+most 200 files and a 200-character description; `preflight.py` enforces both
+limits. To build the upload zip from a clone:
+
+```bash
+mkdir -p /tmp/up && cp -r . /tmp/up/firstchair-consulting-deck && rm -rf /tmp/up/firstchair-consulting-deck/.git
+cd /tmp/up && zip -qrD firstchair-consulting-deck.zip firstchair-consulting-deck
+```
+
 ## The credit line
 
 Every deck's closing slide carries a discreet footer credit, "Built with the
